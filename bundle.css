@@ -17,7 +17,7 @@ header {
 
 .Items {
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 1.0rem;
   grid-row-gap: 1.5em;
   display: grid;
 }
