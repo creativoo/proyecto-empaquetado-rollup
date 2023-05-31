@@ -1,5 +1,5 @@
 const $body = document.querySelector("body");
-const API = "https://api.escuelajs.co/api/v1/products/?offset=5&limit=10";
+const API = "https://api.escuelajs.co/api/v1/products/?offset=5&limit=9";
 import logo from "./assets/logo.png";
 import "./styles/style.css";
 
