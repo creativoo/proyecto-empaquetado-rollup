@@ -3,6 +3,7 @@
     "@rollup/plugin-html": "^1.0.2",
     "@rollup/plugin-image": "^3.0.2",
     "@web/dev-server": "^0.2.1",
+    "gh-pages": "^5.0.0",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-css-only": "^4.3.0"
   },
@@ -54,9 +55,12 @@
     "wrappy": "^1.0.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "web-dev-server --config web-dev-server.config.js",
+    "build": "rollup -c",
+    "predploy":"npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diego Iberri",
   "license": "ISC"
 }
