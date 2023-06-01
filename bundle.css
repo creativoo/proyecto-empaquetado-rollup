@@ -40,8 +40,7 @@ header {
 }
 
 .Card h2 {
-  font-size: 18px;
-  font-weight: 300;
+  font-size: 16px;
   padding: 5px 10px;
   display: flex;
   justify-content: space-between;
