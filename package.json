@@ -62,5 +62,6 @@
   },
   "keywords": [],
   "author": "Diego Iberri",
-  "license": "ISC"
+  "license": "ISC",
+  "type":"module"
 }
